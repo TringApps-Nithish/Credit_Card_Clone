@@ -47,7 +47,7 @@ public class GatherInfo extends CreditCard {
             obj1.display();
             l.info("\n Members of Object - 2 ->");
             obj2.display();
-            int answer = obj1.equal(cardNumber1);
+            int answer = obj1.check(cardNumber1);
             if (answer == 1)
                 l.info("\n Both Credit Card Numbers are Same ");
             else

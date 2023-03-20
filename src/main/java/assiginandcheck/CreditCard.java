@@ -21,7 +21,7 @@ public class CreditCard extends CloneNotSupportedException implements Cloneable 
         return super.clone();
     }
 
-    protected int equal(String cardNumber1) {
+    protected int check(String cardNumber1) {
         return (!Objects.equals(cardNumber, cardNumber1)) ? 1 : 0;
     }
 
