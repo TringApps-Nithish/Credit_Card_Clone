@@ -4,12 +4,7 @@ import assiginandcheck.CreditCard;
 
 import java.util.Scanner;
 public class GatherInfo extends CreditCard {
-    private String name;
-    private String cardNumber;
-    private String expiryDate;
-    private String name1;
-    private String cardNumber1;
-    private String expiryDate1;
+
 
     public GatherInfo(String name, String number, String expiryDate) {
         super(name, number, expiryDate);
@@ -17,6 +12,12 @@ public class GatherInfo extends CreditCard {
 
     public void run() throws CloneNotSupportedException {
         Scanner sc = new Scanner(System.in);
+        String name = null;
+        String cardNumber = null;
+        String expiryDate = null;
+        String name1 = null;
+        String cardNumber1 = null;
+        String expiryDate1 = null;
         try {
             l.info(" ----- Credit Card Using Cloning ----- ");
             l.info(" Enter 1st Card Details: \n Enter Card Holder Name : ");
