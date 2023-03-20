@@ -1,2 +1,6 @@
-package gatherinfo;public class OutRangeException {
+package gatherinfo;
+
+class OutRangeException extends Exception
+{
+
 }
